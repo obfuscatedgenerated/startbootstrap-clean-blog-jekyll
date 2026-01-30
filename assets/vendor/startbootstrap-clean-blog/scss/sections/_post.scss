@@ -3,6 +3,9 @@
     >a {
         color: $gray-900;
 
+        display: flex;
+        align-items: center;
+
         &:focus,
         &:hover {
             text-decoration: none;
@@ -18,11 +21,6 @@
         >.post-subtitle, >.post-titles>.post-subtitle {
             font-weight: 300;
             margin: 0 0 10px;
-        }
-
-        >.post-interactable {
-            display: flex;
-            align-items: center;
         }
 
         >.post-titles {
