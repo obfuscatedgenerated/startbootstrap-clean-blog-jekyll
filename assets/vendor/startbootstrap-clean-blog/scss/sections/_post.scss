@@ -19,6 +19,24 @@
             font-weight: 300;
             margin: 0 0 10px;
         }
+
+        >.post-interactable {
+            display: flex;
+            align-items: center;
+        }
+
+        >.post-titles {
+            display: flex;
+            flex-direction: column;
+        }
+
+        >.post-image {
+            max-width: 25%;
+            aspect-ratio: calc(4 / 3);
+            object-fit: cover;
+            margin-right: 5%;
+            border-radius: 1.5rem;
+        }
     }
 
     >.post-meta {
